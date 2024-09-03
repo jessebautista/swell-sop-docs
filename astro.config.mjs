@@ -14,12 +14,25 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Example Guide', link: 'guides/example' },
 					],
 				},
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Onboarding',
+					items: [
+						{ label: 'Your First Day', link: 'onboarding/first-day' },
+						{ label: 'Our Tools', link: 'onboarding/our-tools' },
+					],
+				},
+				{
+					label: 'Standard Operating Procedures',
+					items: [
+						// SOP items will be added here in the future
+					],
 				},
 			],
 		}),

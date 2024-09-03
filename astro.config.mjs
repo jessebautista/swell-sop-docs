@@ -78,6 +78,16 @@ export default defineConfig({
 						{ label: 'Datadog Integration', link: '/integrations/datadog/' },
 					],
 				},
+				{
+					label: 'Daily Tasks',
+					items: [
+						{ label: 'Overview', link: '/daily-tasks/overview/' },
+						{ label: 'Intercom', link: '/daily-tasks/intercom/' },
+						{ label: 'Asana', link: '/daily-tasks/asana/' },
+						{ label: 'Work Email', link: '/daily-tasks/work-email/' },
+						{ label: 'Slack', link: '/daily-tasks/slack/' },
+					],
+				},
 			],
 		}),
 	],

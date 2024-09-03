@@ -1,0 +1,37 @@
+---
+title: Daily Tasks - Work Email
+description: Daily tasks related to Work Email
+---
+
+# Daily Tasks - Work Email
+
+Your work email is a crucial communication tool. Here are your daily tasks related to your work email:
+
+1. **Check Inbox**
+   - Log into your work email (usually through Gmail if you're using Google Workspace).
+   - Review all new emails since your last shift.
+   - Flag or star important emails that need immediate attention.
+
+2. **Respond to Urgent Emails**
+   - Prioritize emails marked as urgent or those from key stakeholders.
+   - Respond to these emails promptly, or forward them to the appropriate team member if you're not the best person to handle them.
+
+3. **Review Ongoing Conversations**
+   - Check any ongoing email threads for updates.
+   - Respond to any emails where your input is needed.
+
+4. **Update Relevant Tasks**
+   - If any emails relate to ongoing tasks in Asana, update those tasks with the new information.
+   - Create new tasks in Asana if emails reveal new work that needs to be done.
+
+5. **Organize Your Inbox**
+   - File emails into appropriate folders or labels once you've dealt with them.
+   - Archive emails that don't require any further action.
+
+6. **Check Spam Folder**
+   - Quickly scan your spam folder for any legitimate emails that may have been misclassified.
+
+7. **Set Up Email Notifications**
+   - Ensure your email notifications are set up correctly so you don't miss important messages during your shift.
+
+Remember to maintain a professional tone in all your email communications. If you're unsure about how to respond to a particular email, don't hesitate to ask a team lead for guidance.

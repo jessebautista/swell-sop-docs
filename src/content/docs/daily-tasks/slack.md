@@ -1,0 +1,44 @@
+---
+title: Daily Tasks - Slack
+description: Daily tasks related to Slack
+---
+
+# Daily Tasks - Slack
+
+Slack is our primary tool for internal communication. Here are your daily tasks related to Slack:
+
+1. **Check Important Channels**
+   - Log into Slack and review messages in important channels since your last shift. These typically include:
+     - #general for company-wide announcements
+     - #support for customer support issues
+     - #user-questions for automated notifications about new user questions
+   - Respond to any messages or threads where your input is needed.
+
+2. **Review Direct Messages**
+   - Check your direct messages for any questions or requests from team members.
+   - Respond to these messages promptly.
+
+3. **Check for @mentions**
+   - Review any messages where you've been @mentioned.
+   - Respond to these mentions or take any necessary actions.
+
+4. **Monitor Relevant Channels**
+   - Keep an eye on channels relevant to your role throughout your shift.
+   - Contribute to discussions where appropriate.
+
+5. **Update Your Status**
+   - Set your Slack status to reflect your availability (e.g., "In a meeting", "On lunch", etc.).
+   - Remember to update this throughout your shift as your status changes.
+
+6. **Check for Important Updates**
+   - Look for any important updates or announcements that may have been posted.
+   - These could include system status updates, policy changes, or other critical information.
+
+7. **Collaborate on Ongoing Issues**
+   - Use Slack to collaborate with team members on any ongoing issues or projects.
+   - Start threads to keep conversations organized and easy to follow.
+
+8. **Share Relevant Information**
+   - If you come across information that would be useful to your team, share it in the appropriate Slack channel.
+
+Remember to maintain a professional and respectful tone in all your Slack communications. While Slack can be more casual than email, it's still a work communication tool.

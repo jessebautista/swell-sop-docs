@@ -1,0 +1,30 @@
+---
+title: Daily Tasks - Intercom
+description: Daily tasks related to Intercom
+---
+
+# Daily Tasks - Intercom
+
+Intercom is our primary tool for customer communication. Here are your daily tasks related to Intercom:
+
+1. **Review Open Conversations**
+   - Log into Intercom and navigate to the Inbox.
+   - Review all open conversations, prioritizing those that have been waiting the longest or are marked as urgent.
+   - Handle conversations that you can resolve based on your knowledge and authority level.
+   - For issues you can't resolve, escalate to the appropriate team or individual.
+
+2. **Review Previous Shift's Conversations**
+   - Check the conversations handled by team members from the previous shift.
+   - Look for any recurring issues, important updates, or unresolved matters that might need your attention.
+   - Make note of any new information or solutions that could be useful for future reference.
+
+3. **Ongoing Monitoring**
+   - Keep Intercom open throughout your shift.
+   - Regularly check for new incoming conversations.
+   - Aim to respond to new conversations within the target response time (usually within 2 hours during business hours).
+
+4. **Bug Testing**
+   - During periods of low conversation volume, use your free time to test any reported bugs or issues mentioned in recent conversations.
+   - Document your findings and update the relevant conversations or tickets with any new information.
+
+Remember to maintain a friendly and professional tone in all your interactions, and don't hesitate to ask for help if you encounter an issue you're unsure about.

@@ -11,19 +11,29 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Onboarding',
+					autogenerate: { directory: 'onboarding' },
+				},
+				{
+					label: 'Tools',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Intercom', link: '/tools/intercom/' },
+						{ label: 'Asana', link: '/tools/asana/' },
+						{ label: 'Work Email (Google Suite)', link: '/tools/work-email/' },
+						{ label: 'Slack', link: '/tools/slack/' },
+						{ label: 'Status Page', link: '/tools/status-page/' },
+						{ label: 'Datadog', link: '/tools/datadog/' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-				{
-					label: 'Onboarding',
-					autogenerate: { directory: 'onboarding' },
+					label: 'Daily Tasks',
+					items: [
+						{ label: 'Overview', link: '/daily-tasks/overview/' },
+						{ label: 'Intercom', link: '/daily-tasks/intercom/' },
+						{ label: 'Asana', link: '/daily-tasks/asana/' },
+						{ label: 'Work Email', link: '/daily-tasks/work-email/' },
+						{ label: 'Slack', link: '/daily-tasks/slack/' },
+					],
 				},
 				{
 					label: 'Standard Operating Procedures',
@@ -55,37 +65,6 @@ export default defineConfig({
 								{ label: 'Asana Project Management', link: '/sop/user-request-management/asana-project-management/' },
 							],
 						},
-					],
-				},
-				{
-					label: 'Tools',
-					items: [
-						{ label: 'Intercom', link: '/tools/intercom/' },
-						{ label: 'Asana', link: '/tools/asana/' },
-						{ label: 'Work Email (Google Suite)', link: '/tools/work-email/' },
-						{ label: 'Slack', link: '/tools/slack/' },
-						{ label: 'Status Page', link: '/tools/status-page/' },
-						{ label: 'Datadog', link: '/tools/datadog/' },
-					],
-				},
-				{
-					label: 'Integrations',
-					items: [
-						{ label: 'Overview', link: '/integrations/overview/' },
-						{ label: 'Asana Integration', link: '/integrations/asana/' },
-						{ label: 'Slack Integration', link: '/integrations/slack/' },
-						{ label: 'Google Suite Integration', link: '/integrations/google-suite/' },
-						{ label: 'Datadog Integration', link: '/integrations/datadog/' },
-					],
-				},
-				{
-					label: 'Daily Tasks',
-					items: [
-						{ label: 'Overview', link: '/daily-tasks/overview/' },
-						{ label: 'Intercom', link: '/daily-tasks/intercom/' },
-						{ label: 'Asana', link: '/daily-tasks/asana/' },
-						{ label: 'Work Email', link: '/daily-tasks/work-email/' },
-						{ label: 'Slack', link: '/daily-tasks/slack/' },
 					],
 				},
 			],

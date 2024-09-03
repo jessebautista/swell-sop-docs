@@ -1,0 +1,63 @@
+---
+title: Asana
+description: Guide to using Asana for task and project management
+---
+
+# Asana
+
+Asana is our primary tool for tracking tasks, managing projects, and organizing our work. This guide will help you understand how to use Asana effectively in our organization.
+
+## Purpose of Asana
+
+We use Asana for:
+
+1. Tracking individual tasks and responsibilities
+2. Managing complex projects
+3. Organizing and prioritizing work across teams
+4. Documenting progress and decisions
+
+## Key Features
+
+1. **Tasks**: Individual work items with assignees, due dates, and descriptions.
+2. **Projects**: Collections of related tasks, often with specific goals or timelines.
+3. **Sections**: Used to organize tasks within projects.
+4. **Custom Fields**: Allow for additional categorization and data tracking.
+
+## Best Practices
+
+1. **Keep Tasks Updated**: Regularly update the status, comments, and due dates of your tasks.
+2. **Use Descriptions Effectively**: Provide clear, detailed descriptions for tasks and projects.
+3. **Assign Responsibly**: Ensure each task has a clear owner.
+4. **Use Due Dates**: Set realistic due dates and respect those set by others.
+
+## Important Projects
+
+We have several key Asana projects for different aspects of our work:
+
+1. **User Requests Project**: [User requests Asana project](https://app.asana.com/0/your-project-id/list)
+   - Used to track and manage feature requests and enhancement suggestions from users.
+   - Each user request is added as a task in this project.
+
+2. **User Questions Project**: [User questions Asana project list](https://app.asana.com/0/1202302358229231/list)
+   - Used to track open user questions.
+   - Questions are automatically added when submitted through our form.
+
+3. **Bug Tracking Project**: Used to manage and prioritize bug reports.
+
+## User Request Management
+
+As outlined in our User Request Management SOP:
+
+1. New requests are added to the "New" column of the User Requests project.
+2. Requests move through columns as they are evaluated, prioritized, and implemented.
+3. Custom fields are used to track important information like requester, impact, effort, and strategic value.
+
+## User Question Management
+
+As per our User Question Management SOP:
+
+1. Questions are automatically added to the User Questions project when submitted.
+2. For enterprise-level accounts, questions are assigned to specific engineers.
+3. Tasks can be marked with different statuses to track progress.
+
+Remember, Asana is our source of truth for task and project status. Keep it up-to-date to ensure everyone has the most current information.

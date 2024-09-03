@@ -1,0 +1,54 @@
+---
+title: Slack
+description: Guide to using Slack for real-time communication
+---
+
+# Slack
+
+Slack is our primary tool for real-time communication and updates within the team. This guide will help you understand how to use Slack effectively in our organization.
+
+## Purpose of Slack
+
+Slack serves as our main platform for:
+
+1. Real-time communication among team members
+2. Quick updates on projects and tasks
+3. Sharing of important information
+4. Collaboration on immediate issues or questions
+
+## Key Features
+
+1. **Channels**: We use different channels for various topics or projects. Always post in the most relevant channel.
+2. **Direct Messages**: For one-on-one or small group conversations.
+3. **Mentions**: Use @username to notify specific team members.
+4. **Threads**: Use threads to keep conversations organized and reduce channel clutter.
+
+## Best Practices
+
+1. **Stay on Topic**: Use the appropriate channel for your message.
+2. **Be Concise**: Keep messages clear and to the point.
+3. **Use Status Updates**: Let others know if you're in a meeting, on vacation, etc.
+4. **Respect Others' Time**: Don't expect immediate responses, especially outside of work hours.
+
+## Important Channels
+
+- #general: Company-wide announcements
+- #support: For discussing customer support issues
+- #user-questions: Automated notifications about new user questions (non-enterprise)
+
+## Integration with Other Tools
+
+Slack integrates with several of our other tools:
+
+1. **Asana**: Receive notifications about task updates or new assignments.
+2. **Intercom**: Get alerts about urgent customer inquiries.
+3. **Datadog**: Receive system performance alerts.
+
+## User Question Management
+
+As mentioned in our User Question Management SOP:
+
+- Non-enterprise level user questions are automatically posted to the #user-questions Slack channel.
+- Team members are encouraged to respond to any questions they can answer in this channel.
+
+Remember, while Slack is great for quick communication, it's not meant for long-term information storage. Important decisions or information should be documented in appropriate places (like Asana or our knowledge base).

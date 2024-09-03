@@ -5,6 +5,13 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
+			favicon: './src/assets/Swell Wordmark Purple.svg',
+			logo: {
+				light: './src/assets/Swell Wordmark Purple.svg',
+				dark: './src/assets/Swell Wordmark Yellow.svg',
+				alt: 'Swell Wordmark Logo', // Optional: Add alt text for accessibility
+				replacesTitle: true, // Optional: Set this to true if you want the logo to replace the site title
+			  },
 			title: 'My Docs',
 			social: {
 				github: 'https://github.com/withastro/starlight',

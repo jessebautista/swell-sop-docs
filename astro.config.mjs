@@ -31,7 +31,15 @@ export default defineConfig({
 				{
 					label: 'Standard Operating Procedures',
 					items: [
-						// SOP items will be added here in the future
+						{
+							label: 'Bug Ticket Management',
+							items: [
+								{ label: 'Overview', link: 'sop/bug-ticket-management/overview' },
+								{ label: 'Project Fields', link: 'sop/bug-ticket-management/project-fields' },
+								{ label: 'Handling Process', link: 'sop/bug-ticket-management/handling-process' },
+								{ label: 'Manual Follow-Up', link: 'sop/bug-ticket-management/manual-follow-up' },
+							],
+						},
 					],
 				},
 			],

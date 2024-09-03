@@ -33,6 +33,7 @@ export default defineConfig({
 						{ label: 'Asana', link: '/daily-tasks/asana/' },
 						{ label: 'Work Email', link: '/daily-tasks/work-email/' },
 						{ label: 'Slack', link: '/daily-tasks/slack/' },
+						{ label: 'Research Guide', link: '/daily-tasks/research/' },
 					],
 				},
 				{

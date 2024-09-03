@@ -68,6 +68,16 @@ export default defineConfig({
 						{ label: 'Datadog', link: '/tools/datadog/' },
 					],
 				},
+				{
+					label: 'Integrations',
+					items: [
+						{ label: 'Overview', link: '/integrations/overview/' },
+						{ label: 'Asana Integration', link: '/integrations/asana/' },
+						{ label: 'Slack Integration', link: '/integrations/slack/' },
+						{ label: 'Google Suite Integration', link: '/integrations/google-suite/' },
+						{ label: 'Datadog Integration', link: '/integrations/datadog/' },
+					],
+				},
 			],
 		}),
 	],

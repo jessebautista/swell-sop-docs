@@ -14,7 +14,7 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: 'guides/example' },
+						{ label: 'Example Guide', link: '/guides/example/' },
 					],
 				},
 				{
@@ -23,10 +23,7 @@ export default defineConfig({
 				},
 				{
 					label: 'Onboarding',
-					items: [
-						{ label: 'Your First Day', link: 'onboarding/first-day' },
-						{ label: 'Our Tools', link: 'onboarding/our-tools' },
-					],
+					autogenerate: { directory: 'onboarding' },
 				},
 				{
 					label: 'Standard Operating Procedures',
@@ -34,10 +31,19 @@ export default defineConfig({
 						{
 							label: 'Bug Ticket Management',
 							items: [
-								{ label: 'Overview', link: 'sop/bug-ticket-management/overview' },
-								{ label: 'Project Fields', link: 'sop/bug-ticket-management/project-fields' },
-								{ label: 'Handling Process', link: 'sop/bug-ticket-management/handling-process' },
-								{ label: 'Manual Follow-Up', link: 'sop/bug-ticket-management/manual-follow-up' },
+								{ label: 'Overview', link: '/sop/bug-ticket-management/overview/' },
+								{ label: 'Handling Process', link: '/sop/bug-ticket-management/handling-process/' },
+								{ label: 'Manual Follow Up', link: '/sop/bug-ticket-management/manual-follow-up/' },
+								{ label: 'Project Fields', link: '/sop/bug-ticket-management/project-fields/' },
+							],
+						},
+						{
+							label: 'User Question Management',
+							items: [
+								{ label: 'Overview', link: '/sop/user-question-management/overview/' },
+								{ label: 'Submission Process', link: '/sop/user-question-management/submission-process/' },
+								{ label: 'Handling Process', link: '/sop/user-question-management/handling-process/' },
+								{ label: 'Asana Project Management', link: '/sop/user-question-management/asana-project-management/' },
 							],
 						},
 					],

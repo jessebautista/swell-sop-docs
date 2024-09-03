@@ -14,7 +14,7 @@ To ensure we maintain excellent customer service, we have a structured process f
 - Filter bugs by Enterprise account in Asana
 - Sort by "User last updated"
 
-![Enterprise Filter](../../../public/enterprise-filter.png)
+![Enterprise Filter](../../../../../public/enterprise-filter.png)
 
 ### Standard-level Accounts (With High-Priority Tickets)
 - Follow up every five business days for accounts with at least one high-priority ticket

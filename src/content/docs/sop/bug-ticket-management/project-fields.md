@@ -43,4 +43,4 @@ When managing bug tickets in Asana, we use several fields to categorize and trac
 
 For a detailed explanation of each field, please refer to the [Project Fields Explanations](Project%20fields%20explanations%20feda69273a074e52add06f5af921818c.md) document.
 
-![Project Fields](../../../public/project-fields.png)
+![Project Fields](../../../../../public/project-fields.png)

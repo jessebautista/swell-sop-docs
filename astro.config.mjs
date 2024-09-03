@@ -46,6 +46,15 @@ export default defineConfig({
 								{ label: 'Asana Project Management', link: '/sop/user-question-management/asana-project-management/' },
 							],
 						},
+						{
+							label: 'User Request Management',
+							items: [
+								{ label: 'Overview', link: '/sop/user-request-management/overview/' },
+								{ label: 'Submission Process', link: '/sop/user-request-management/submission-process/' },
+								{ label: 'Handling Process', link: '/sop/user-request-management/handling-process/' },
+								{ label: 'Asana Project Management', link: '/sop/user-request-management/asana-project-management/' },
+							],
+						},
 					],
 				},
 			],

@@ -1,0 +1,61 @@
+---
+title: Research Guide
+description: A comprehensive guide to conducting research as part of your daily tasks
+---
+
+# Research Guide
+
+As part of your daily tasks, you may be required to conduct research on various topics related to our products, industry trends, or customer inquiries. This guide will help you navigate the research process effectively.
+
+## Research Process
+
+1. **Identify the research question**: Clearly define what you need to find out.
+2. **Choose your sources**: Use a combination of internal resources and external sources.
+3. **Gather information**: Collect relevant data and insights.
+4. **Analyze and synthesize**: Organize and interpret the information you've gathered.
+5. **Document your findings**: Record your research results in a clear, concise manner.
+6. **Share and apply**: Communicate your findings to relevant team members and apply the insights to your work.
+
+## Internal Resources
+
+- Product documentation
+- Knowledge base
+- Previous research reports
+- Team expertise (consult with colleagues)
+
+## External Sources
+
+- Industry publications
+- Academic journals
+- Competitor websites
+- Market reports
+- Social media trends
+
+## Research Tools
+
+- Google Scholar
+- Industry-specific databases
+- Survey tools (e.g., SurveyMonkey, Google Forms)
+- Data visualization tools (e.g., Tableau, PowerBI)
+
+## Best Practices
+
+- Always verify the credibility of your sources
+- Cross-reference information from multiple sources
+- Keep track of your sources for future reference
+- Stay objective and avoid confirmation bias
+- Set a realistic timeframe for your research
+- Don't hesitate to ask for help or clarification when needed
+
+## Documenting Your Research
+
+When documenting your research findings:
+
+1. Use clear, concise language
+2. Organize information logically
+3. Include visual aids when appropriate (charts, graphs, etc.)
+4. Cite your sources
+5. Highlight key findings and actionable insights
+6. Include a brief executive summary for quick reference
+
+Remember, effective research is a skill that improves with practice. Don't be discouraged if you don't find all the answers immediately. The process of research itself often leads to valuable insights and new questions to explore.

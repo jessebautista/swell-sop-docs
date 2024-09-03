@@ -2,9 +2,6 @@
 title: User Question Handling Process
 description: How user questions are handled and answered
 ---
-
-# User Question Handling Process
-
 This document outlines the process for handling and answering user questions once they have been submitted.
 
 ## Question Triage

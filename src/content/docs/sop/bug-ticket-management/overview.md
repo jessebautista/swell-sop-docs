@@ -2,9 +2,6 @@
 title: Bug Ticket Management Overview
 description: An overview of the bug ticket management process
 ---
-
-# Bug Ticket Management Overview
-
 This section provides a comprehensive guide to managing bug tickets in our system. We use Asana as our primary tool for tracking and managing bug reports. The process involves several stages, from initial submission to resolution and follow-up.
 
 ## Key Components

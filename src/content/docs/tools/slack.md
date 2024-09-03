@@ -2,9 +2,6 @@
 title: Slack
 description: Guide to using Slack for real-time communication
 ---
-
-# Slack
-
 Slack is our primary tool for real-time communication and updates within the team. This guide will help you understand how to use Slack effectively in our organization.
 
 ## Purpose of Slack

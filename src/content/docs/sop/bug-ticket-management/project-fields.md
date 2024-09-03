@@ -2,9 +2,6 @@
 title: Bug Ticket Project Fields
 description: Explanation of the various fields used in bug ticket management
 ---
-
-# Bug Ticket Project Fields
-
 When managing bug tickets in Asana, we use several fields to categorize and track the progress of each issue. Understanding these fields is crucial for effective bug management.
 
 ## Key Fields

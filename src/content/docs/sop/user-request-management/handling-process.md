@@ -2,9 +2,6 @@
 title: User Request Handling Process
 description: How user requests are evaluated, prioritized, and implemented
 ---
-
-# User Request Handling Process
-
 This document outlines the process for handling user requests once they have been submitted and added to our Asana project.
 
 ## Request Evaluation

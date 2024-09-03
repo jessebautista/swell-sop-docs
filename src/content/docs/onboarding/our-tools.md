@@ -2,9 +2,6 @@
 title: Our Tools
 description: A checklist of essential tools for our customer support team
 ---
-
-# Our Essential Tools
-
 As a member of our customer support team, you'll be using several tools to communicate, collaborate, and manage your work effectively. Here's a checklist of the primary tools we use:
 
 - [ ] Intercom - Our main customer communication platform

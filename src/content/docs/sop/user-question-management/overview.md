@@ -2,9 +2,6 @@
 title: User Question Management Overview
 description: An overview of the user question management process
 ---
-
-# User Question Management Overview
-
 This section provides an overview of how we handle user questions at our company. User questions are an important part of our customer support process, allowing us to address user concerns, improve our product, and maintain customer satisfaction.
 
 ## What are User Questions?

@@ -2,9 +2,6 @@
 title: Bug Ticket Handling Process
 description: The process for handling bug tickets based on priority
 ---
-
-# Bug Ticket Handling Process
-
 Our bug ticket handling process varies depending on the priority of the issue. This ensures that critical issues are addressed promptly while maintaining an organized approach to all reported bugs.
 
 ## Priority Levels

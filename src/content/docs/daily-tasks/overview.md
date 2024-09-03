@@ -2,9 +2,6 @@
 title: Daily Tasks Overview
 description: An overview of the daily tasks for new team members
 ---
-
-# Daily Tasks Overview
-
 As a new team member, you have a set of daily tasks to perform once you've logged in. These tasks ensure that you stay up-to-date with ongoing conversations, issues, and updates across various platforms. Here's a quick overview of what you need to do:
 
 1. **Intercom**: Review and handle open conversations.

@@ -2,9 +2,6 @@
 title: Asana Project Management for User Questions
 description: How we use Asana to manage and track user questions
 ---
-
-# Asana Project Management for User Questions
-
 This document outlines how we use Asana to manage and track user questions.
 
 ## Asana Project Overview

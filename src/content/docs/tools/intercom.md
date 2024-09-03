@@ -2,9 +2,6 @@
 title: Intercom
 description: Guide to using Intercom for customer communication
 ---
-
-# Intercom
-
 Intercom is our primary tool for customer communication and support. This guide will help you understand how to use Intercom effectively in our organization.
 
 ## Intercom's Introductory Guide for New Team Members

@@ -2,9 +2,6 @@
 title: User Question Submission Process
 description: How users submit questions and how they are initially processed
 ---
-
-# User Question Submission Process
-
 This document outlines the process for submitting and initially processing user questions.
 
 ## User Question Submission Form

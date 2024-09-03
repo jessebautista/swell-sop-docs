@@ -2,9 +2,6 @@
 title: Asana
 description: Guide to using Asana for task and project management
 ---
-
-# Asana
-
 Asana is our primary tool for tracking tasks, managing projects, and organizing our work. This guide will help you understand how to use Asana effectively in our organization.
 
 ## Purpose of Asana

@@ -2,9 +2,6 @@
 title: Daily Tasks - Intercom
 description: Daily tasks related to Intercom
 ---
-
-# Daily Tasks - Intercom
-
 Intercom is our primary tool for customer communication. Here are your daily tasks related to Intercom:
 
 1. **Review Open Conversations**

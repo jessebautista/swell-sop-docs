@@ -2,9 +2,6 @@
 title: Status Page
 description: Information about Status Page access and usage
 ---
-
-# Status Page
-
 Status Page is a tool used by our team leaders to communicate the current status of our services to both internal teams and external users.
 
 ## Access and Usage

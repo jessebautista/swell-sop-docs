@@ -2,9 +2,6 @@
 title: Manual Follow-Up Process
 description: Guidelines for following up with users about reported bugs
 ---
-
-# Manual Follow-Up Process
-
 To ensure we maintain excellent customer service, we have a structured process for following up with users about their reported bugs. The frequency and nature of follow-ups depend on the user's account level and the priority of the reported issues.
 
 ## Follow-Up Categories

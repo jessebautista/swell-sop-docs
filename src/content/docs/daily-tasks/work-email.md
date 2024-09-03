@@ -2,9 +2,6 @@
 title: Daily Tasks - Work Email
 description: Daily tasks related to Work Email
 ---
-
-# Daily Tasks - Work Email
-
 Your work email is a crucial communication tool. Here are your daily tasks related to your work email:
 
 1. **Check Inbox**

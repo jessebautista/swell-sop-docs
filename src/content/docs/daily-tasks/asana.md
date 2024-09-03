@@ -2,9 +2,6 @@
 title: Daily Tasks - Asana
 description: Daily tasks related to Asana
 ---
-
-# Daily Tasks - Asana
-
 Asana is our project management tool where we track tasks, bugs, and user requests. Here are your daily tasks related to Asana:
 
 1. **Review Assigned Tasks**

@@ -2,9 +2,6 @@
 title: Asana Project Management for User Requests
 description: How we use Asana to manage and track user requests
 ---
-
-# Asana Project Management for User Requests
-
 This document outlines how we use Asana to manage and track user requests.
 
 ## Asana Project Overview

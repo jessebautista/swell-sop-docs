@@ -2,9 +2,6 @@
 title: User Request Submission Process
 description: How users submit requests and how they are initially processed
 ---
-
-# User Request Submission Process
-
 This document outlines the process for submitting and initially processing user requests.
 
 ## User Request Submission

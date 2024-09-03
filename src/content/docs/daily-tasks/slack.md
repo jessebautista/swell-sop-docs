@@ -2,9 +2,6 @@
 title: Daily Tasks - Slack
 description: Daily tasks related to Slack
 ---
-
-# Daily Tasks - Slack
-
 Slack is our primary tool for internal communication. Here are your daily tasks related to Slack:
 
 1. **Check Important Channels**

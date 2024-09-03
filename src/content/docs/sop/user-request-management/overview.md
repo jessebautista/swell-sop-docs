@@ -2,9 +2,6 @@
 title: User Request Management Overview
 description: An overview of the user request management process
 ---
-
-# User Request Management Overview
-
 This section provides an overview of how we handle user requests at our company. User requests are an important part of our product development process, allowing us to gather feedback, improve our product, and meet user needs.
 
 ## What are User Requests?

@@ -2,9 +2,6 @@
 title: Your First Day
 description: Welcome to your first day at our customer support team!
 ---
-
-# Welcome to Your First Day!
-
 We're thrilled to have you join our customer support team. Today marks the beginning of an exciting journey with us. 
 
 Here's what you can expect on your first day:

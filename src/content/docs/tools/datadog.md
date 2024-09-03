@@ -2,9 +2,6 @@
 title: Datadog
 description: Information about Datadog access and usage
 ---
-
-# Datadog
-
 Datadog is a monitoring and analytics tool used by our team leaders to track the performance and health of our systems.
 
 ## Access and Usage

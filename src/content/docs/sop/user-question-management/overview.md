@@ -8,6 +8,12 @@ This section provides an overview of how we handle user questions at our company
 
 User questions are inquiries submitted by our users through various channels, typically when they need assistance that goes beyond what our standard support or other departments can provide. These questions are often technical in nature and may require input from engineers or product managers.
 
+import { LinkCard } from '@astrojs/starlight/components';
+
+## Related Documentation
+
+<LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+
 ## Key Points
 
 1. We have a dedicated submission form for user questions.

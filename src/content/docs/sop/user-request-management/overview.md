@@ -8,6 +8,12 @@ This section provides an overview of how we handle user requests at our company.
 
 User requests are feature suggestions or enhancement requests submitted by our users through various channels. These requests help us understand what our users need and want from our product.
 
+import { LinkCard } from '@astrojs/starlight/components';
+
+## Related Documentation
+
+<LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+
 ## Key Points
 
 1. We have a dedicated submission process for user requests.

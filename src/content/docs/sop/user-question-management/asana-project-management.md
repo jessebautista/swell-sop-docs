@@ -4,6 +4,12 @@ description: How we use Asana to manage and track user questions
 ---
 This document outlines how we use Asana to manage and track user questions.
 
+import { LinkCard } from '@astrojs/starlight/components';
+
+## Related Documentation
+
+<LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+
 ## Asana Project Overview
 
 We use an Asana project to keep track of all open user questions. This project helps us organize, prioritize, and manage the questions efficiently.

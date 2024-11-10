@@ -4,6 +4,12 @@ description: An overview of the bug ticket management process
 ---
 This section provides a comprehensive guide to managing bug tickets in our system. We use Asana as our primary tool for tracking and managing bug reports. The process involves several stages, from initial submission to resolution and follow-up.
 
+import { LinkCard } from '@astrojs/starlight/components';
+
+## Related Documentation
+
+<LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+
 ## Key Components
 
 1. **Project Fields**: We use various fields in Asana to categorize and prioritize bug tickets. These fields help us track the status, priority, and other important aspects of each bug.

@@ -4,6 +4,12 @@ description: The process for handling bug tickets based on priority
 ---
 Our bug ticket handling process varies depending on the priority of the issue. This ensures that critical issues are addressed promptly while maintaining an organized approach to all reported bugs.
 
+import { LinkCard } from '@astrojs/starlight/components';
+
+## Related Documentation
+
+<LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+
 ## Priority Levels
 
 1. **Critical Issues**

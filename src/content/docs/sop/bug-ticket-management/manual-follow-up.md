@@ -4,6 +4,12 @@ description: Guidelines for following up with users about reported bugs
 ---
 To ensure we maintain excellent customer service, we have a structured process for following up with users about their reported bugs. The frequency and nature of follow-ups depend on the user's account level and the priority of the reported issues.
 
+import { LinkCard } from '@astrojs/starlight/components';
+
+## Related Documentation
+
+<LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+
 ## Follow-Up Categories
 
 ### Enterprise-level Accounts

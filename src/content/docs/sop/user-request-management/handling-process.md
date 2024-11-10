@@ -4,6 +4,12 @@ description: How user requests are evaluated, prioritized, and implemented
 ---
 This document outlines the process for handling user requests once they have been submitted and added to our Asana project.
 
+import { LinkCard } from '@astrojs/starlight/components';
+
+## Related Documentation
+
+<LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+
 ## Request Evaluation
 
 1. The product team reviews new requests on a regular basis (typically weekly).

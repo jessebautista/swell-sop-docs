@@ -4,6 +4,12 @@ description: How user questions are handled and answered
 ---
 This document outlines the process for handling and answering user questions once they have been submitted.
 
+import { LinkCard } from '@astrojs/starlight/components';
+
+## Related Documentation
+
+<LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+
 ## Question Triage
 
 1. Questions are initially triaged based on the account level of the user who submitted them.

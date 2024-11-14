@@ -24,12 +24,8 @@ export default defineConfig({
 				{
 					label: 'Daily Tasks',
 					items: [
-						{ label: 'Overview', link: '/daily-tasks/overview/' },
-						{ label: 'Intercom', link: '/daily-tasks/intercom/' },
-						{ label: 'Asana', link: '/daily-tasks/asana/' },
-						{ label: 'Work Email', link: '/daily-tasks/work-email/' },
-						{ label: 'Slack', link: '/daily-tasks/slack/' },
-						{ label: 'Research Guide', link: '/daily-tasks/research/' },
+						{ label: 'Normal Operation', link: '/daily-tasks/overview/' },
+						{ label: 'Special Projects', link: '/daily-tasks/special-projects/' },
 					],
 				},
 				{

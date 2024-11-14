@@ -14,34 +14,10 @@ import { LinkCard } from '@astrojs/starlight/components';
 
 This tool is primarily for team leader level team members. If you need information related to Datadog or have questions about our system's performance metrics, please consult your team leader.
 
-import { LinkCard } from '@astrojs/starlight/components';
-
-## Back to Overview
-
-<LinkCard title="Daily Tasks Overview" href="/daily-tasks/overview/" description="Return to the Daily Tasks Overview." />
-
 Team leaders use Datadog to:
 
-import { LinkCard } from '@astrojs/starlight/components';
-
-## Back to Overview
-
-<LinkCard title="Daily Tasks Overview" href="/daily-tasks/overview/" description="Return to the Daily Tasks Overview." />
-
 1. Monitor system performance
-
-import { LinkCard } from '@astrojs/starlight/components';
-
-## Back to Overview
-
-<LinkCard title="Daily Tasks Overview" href="/daily-tasks/overview/" description="Return to the Daily Tasks Overview." />
 2. Track application metrics
-
-import { LinkCard } from '@astrojs/starlight/components';
-
-## Back to Overview
-
-<LinkCard title="Daily Tasks Overview" href="/daily-tasks/overview/" description="Return to the Daily Tasks Overview." />
 3. Set up alerts for potential issues
 4. Analyze trends in our infrastructure
 

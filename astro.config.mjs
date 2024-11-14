@@ -22,17 +22,6 @@ export default defineConfig({
 					autogenerate: { directory: 'onboarding' },
 				},
 				{
-					label: 'Tools',
-					items: [
-						{ label: 'Intercom', link: '/tools/intercom/' },
-						{ label: 'Asana', link: '/tools/asana/' },
-						{ label: 'Work Email (Google Suite)', link: '/tools/work-email/' },
-						{ label: 'Slack', link: '/tools/slack/' },
-						{ label: 'Status Page', link: '/tools/status-page/' },
-						{ label: 'Datadog', link: '/tools/datadog/' },
-					],
-				},
-				{
 					label: 'Daily Tasks',
 					items: [
 						{ label: 'Overview', link: '/daily-tasks/overview/' },

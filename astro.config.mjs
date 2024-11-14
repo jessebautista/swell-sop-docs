@@ -48,30 +48,15 @@ export default defineConfig({
 					items: [
 						{
 							label: 'Bug Ticket Management',
-							items: [
-								{ label: 'Overview', link: '/sop/bug-ticket-management/overview/' },
-								{ label: 'Handling Process', link: '/sop/bug-ticket-management/handling-process/' },
-								{ label: 'Manual Follow Up', link: '/sop/bug-ticket-management/manual-follow-up/' },
-								{ label: 'Project Fields', link: '/sop/bug-ticket-management/project-fields/' },
-							],
+							link: '/sop/bug-ticket-management/overview/',
 						},
 						{
 							label: 'User Question Management',
-							items: [
-								{ label: 'Overview', link: '/sop/user-question-management/overview/' },
-								{ label: 'Submission Process', link: '/sop/user-question-management/submission-process/' },
-								{ label: 'Handling Process', link: '/sop/user-question-management/handling-process/' },
-								{ label: 'Asana Project Management', link: '/sop/user-question-management/asana-project-management/' },
-							],
+							link: '/sop/user-question-management/overview/',
 						},
 						{
 							label: 'User Request Management',
-							items: [
-								{ label: 'Overview', link: '/sop/user-request-management/overview/' },
-								{ label: 'Submission Process', link: '/sop/user-request-management/submission-process/' },
-								{ label: 'Handling Process', link: '/sop/user-request-management/handling-process/' },
-								{ label: 'Asana Project Management', link: '/sop/user-request-management/asana-project-management/' },
-							],
+							link: '/sop/user-request-management/overview/',
 						},
 					],
 				},

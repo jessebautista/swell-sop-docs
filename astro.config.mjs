@@ -33,15 +33,6 @@ export default defineConfig({
 						{ label: 'Normal Operation', link: '/daily-tasks/overview/' },
 						{ label: 'Special Projects', link: '/daily-tasks/special-projects/' },
 						{
-							label: 'Outage Management',
-							link: '/sop/outage-management/overview/',
-						},
-					],
-				},
-				{
-					label: 'Standard Operating Procedures',
-					items: [
-						{
 							label: 'Bug Ticket Management',
 							link: '/sop/bug-ticket-management/overview/',
 						},
@@ -50,10 +41,13 @@ export default defineConfig({
 							link: '/sop/user-question-management/overview/',
 						},
 						{
+							label: 'Outage Management',
+							link: '/sop/outage-management/overview/',
+						},
+						{
 							label: 'User Request Management',
 							link: '/sop/user-request-management/overview/',
 						},
-					],
 				},
 			],
 		}),

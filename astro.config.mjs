@@ -48,6 +48,10 @@ export default defineConfig({
 							label: 'User Request Management',
 							link: '/sop/user-request-management/overview/',
 						},
+						{
+							label: 'Statuspage.io SOP',
+							link: '/sop/statuspage-io/overview/',
+						},
 					],
 				},
 			],

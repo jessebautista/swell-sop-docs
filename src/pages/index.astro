@@ -1,5 +1,5 @@
 ---
-
+pagefind: false
 ---
 
 <html>
@@ -46,30 +46,41 @@
 
     <script>
       // Handle form submission
-      document.getElementById('loginForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const username = document.getElementById('username').value.trim();
-        const password = document.getElementById('password').value.trim();
-        const errorMessage = document.getElementById('errorMessage');
-        
-        console.log('Login attempt with:', { 
-          username, 
-          password,
-          usernameMatch: username === 'swelltech',
-          passwordMatch: password === 'swellawesome'
-        });
+      const loginForm = document.getElementById('loginForm');
+      if (loginForm) {
+        loginForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          const usernameInput = document.getElementById('username') as HTMLInputElement | null;
+          const passwordInput = document.getElementById('password') as HTMLInputElement | null;
+          const errorMessage = document.getElementById('errorMessage');
+          
+          if (!usernameInput || !passwordInput || !errorMessage) {
+            console.error('Required form elements not found');
+            return;
+          }
 
-        // Simple credential check
-        if (username === 'swelltech' && password === 'swellawesome') {
-          console.log('Login successful, redirecting...');
-          window.location.href = '/main/';
-        } else {
-          console.log('Login failed: Invalid credentials');
-          errorMessage.textContent = 'Invalid username or password';
-          errorMessage.style.display = 'block';
-        }
-      });
+          const username = usernameInput.value.trim();
+          const password = passwordInput.value.trim();
+          
+          console.log('Login attempt with:', { 
+            username, 
+            password,
+            usernameMatch: username === 'swelltech',
+            passwordMatch: password === 'swellawesome'
+          });
+
+          // Simple credential check
+          if (username === 'swelltech' && password === 'swellawesome') {
+            console.log('Login successful, redirecting...');
+            window.location.href = '/main/';
+          } else {
+            console.log('Login failed: Invalid credentials');
+            errorMessage.textContent = 'Invalid username or password';
+            errorMessage.style.display = 'block';
+          }
+        });
+      }
     </script>
 
     <style>

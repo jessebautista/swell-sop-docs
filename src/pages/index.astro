@@ -1,6 +1,6 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
-
+pagefind: false
 let errorMessage = '';
 
 // Handle form submission
@@ -21,7 +21,7 @@ if (Astro.request.method === 'POST') {
 }
 ---
 
-<StarlightPage frontmatter={{ title: 'Login' }}>
+<StarlightPage frontmatter={{ title: 'Login' }} sidebar={[]} hasSidebar>
   <div class="login-container">
     <div class="login-box">
       <img src="/Swell Wordmark Purplepng.png" alt="Swell Logo" class="logo" />

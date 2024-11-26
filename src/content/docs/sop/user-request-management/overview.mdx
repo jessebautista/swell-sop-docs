@@ -4,15 +4,37 @@ description: An overview of the user request management process
 ---
 This section provides an overview of how we handle user requests at our company. User requests are an important part of our product development process, allowing us to gather feedback, improve our product, and meet user needs.
 
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
 ## What are User Requests?
 
 User requests are feature suggestions or enhancement requests submitted by our users through various channels. These requests help us understand what our users need and want from our product.
 
-import { LinkCard } from '@astrojs/starlight/components';
+## Key Components
+
+<CardGrid>
+  <LinkCard 
+    title="Submission Process" 
+    href="/sop/user-request-management/submission-process/"
+    description="Learn about how users submit requests and how they are processed." 
+  />
+  <LinkCard 
+    title="Handling Process" 
+    href="/sop/user-request-management/handling-process/"
+    description="Understand how we evaluate and implement user requests." 
+  />
+  <LinkCard 
+    title="Asana Project Management" 
+    href="/sop/user-request-management/asana-project-management/"
+    description="Learn how we track and manage requests in Asana." 
+  />
+</CardGrid>
 
 ## Related Documentation
 
 <LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+<LinkCard title="Intercom Guide" href="/tools/intercom/" description="Understand how to manage conversations in Intercom." />
+<LinkCard title="Slack Guide" href="/tools/slack/" description="Communicate effectively using Slack." />
 
 ## Key Points
 
@@ -20,9 +42,3 @@ import { LinkCard } from '@astrojs/starlight/components';
 2. All user requests are tracked and managed in an Asana project.
 3. We use a specific process to evaluate, prioritize, and potentially implement user requests.
 4. Regular reviews and updates are conducted to keep stakeholders informed about the status of requests.
-
-For more detailed information on our user request management process, please refer to the following sections:
-
-- [Submission Process](./submission-process)
-- [Handling Process](./handling-process)
-- [Asana Project Management](./asana-project-management)

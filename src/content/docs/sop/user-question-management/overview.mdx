@@ -4,15 +4,37 @@ description: An overview of the user question management process
 ---
 This section provides an overview of how we handle user questions at our company. User questions are an important part of our customer support process, allowing us to address user concerns, improve our product, and maintain customer satisfaction.
 
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
 ## What are User Questions?
 
 User questions are inquiries submitted by our users through various channels, typically when they need assistance that goes beyond what our standard support or other departments can provide. These questions are often technical in nature and may require input from engineers or product managers.
 
-import { LinkCard } from '@astrojs/starlight/components';
+## Key Components
+
+<CardGrid>
+  <LinkCard 
+    title="Submission Process" 
+    href="/sop/user-question-management/submission-process/"
+    description="Learn about how users submit questions and how they are processed." 
+  />
+  <LinkCard 
+    title="Handling Process" 
+    href="/sop/user-question-management/handling-process/"
+    description="Understand how we handle and respond to user questions." 
+  />
+  <LinkCard 
+    title="Asana Project Management" 
+    href="/sop/user-question-management/asana-project-management/"
+    description="Learn how we track and manage questions in Asana." 
+  />
+</CardGrid>
 
 ## Related Documentation
 
 <LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+<LinkCard title="Intercom Guide" href="/tools/intercom/" description="Understand how to manage conversations in Intercom." />
+<LinkCard title="Slack Guide" href="/tools/slack/" description="Communicate effectively using Slack." />
 
 ## Key Points
 
@@ -20,9 +42,3 @@ import { LinkCard } from '@astrojs/starlight/components';
 2. Questions from enterprise-level accounts are handled differently from standard or community-level accounts.
 3. We use Slack for automated reporting of non-enterprise user questions.
 4. An Asana project is used to track and manage open user questions.
-
-For more detailed information on our user question management process, please refer to the following sections:
-
-- [Submission Process](./submission-process)
-- [Handling Process](./handling-process)
-- [Asana Project Management](./asana-project-management)

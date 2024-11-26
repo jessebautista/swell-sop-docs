@@ -32,6 +32,10 @@ export default defineConfig({
 					items: [
 						{ label: 'Normal Operation', link: '/daily-tasks/overview/' },
 						{ label: 'Special Projects', link: '/daily-tasks/special-projects/' },
+						{
+							label: 'Outage Management',
+							link: '/sop/outage-management/overview/',
+						},
 					],
 				},
 				{

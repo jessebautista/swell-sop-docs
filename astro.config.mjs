@@ -7,6 +7,7 @@ export default defineConfig({
 	adapter: vercel(),
 	integrations: [
 		starlight({
+			pagination: false,
 			favicon: './src/assets/Swell Wordmark Purple.svg',
 			logo: {
 				light: './src/assets/Swell Wordmark Purple.svg',
@@ -32,6 +33,11 @@ export default defineConfig({
 					items: [
 						{ label: 'Normal Operation', link: '/daily-tasks/overview/' },
 						{ label: 'Special Projects', link: '/daily-tasks/special-projects/' },
+					],
+				},
+				{
+					label: 'Standard Operating Procedure',
+					items: [
 						{
 							label: 'Bug Ticket Management',
 							link: '/sop/bug-ticket-management/overview/',

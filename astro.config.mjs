@@ -48,6 +48,7 @@ export default defineConfig({
 							label: 'User Request Management',
 							link: '/sop/user-request-management/overview/',
 						},
+					],
 				},
 			],
 		}),

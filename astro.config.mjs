@@ -19,7 +19,7 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Main',
+					label: 'Back to Main Menu',
 					link: '/main/'
 				},
 				{

@@ -19,7 +19,7 @@ if (Astro.request.method === 'POST') {
     // Simple credential check
     if (username === 'swelltech' && password === 'swellawesome') {
       console.log('Login successful, redirecting...');
-      return Astro.redirect('/docs/');
+      return Astro.redirect('/main/');
     } else {
       console.log('Login failed: Invalid credentials');
       errorMessage = 'Invalid username or password';

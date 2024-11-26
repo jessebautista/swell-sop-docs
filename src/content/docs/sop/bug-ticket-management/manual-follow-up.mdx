@@ -2,51 +2,94 @@
 title: Manual Follow-Up Process
 description: Guidelines for following up with users about reported bugs
 ---
-To ensure we maintain excellent customer service, we have a structured process for following up with users about their reported bugs. The frequency and nature of follow-ups depend on the user's account level and the priority of the reported issues.
 
-import { LinkCard } from '@astrojs/starlight/components';
+# Introduction
 
-## Related Documentation
+From a recent interview, we found out that one of our company’s weaknesses is the support. As an effort to increase our overall performance, we’ll be implementing a new process. The follow-ups - It’s the ultimate signifier that we don’t take our users for granted. Following up with users is a type of marketing and can be a valuable asset while growing our platform. 
 
-<LinkCard title="Asana Guide" href="/tools/asana/" description="Learn how we use Asana for task and project management." />
+In this document, we’ll be outlining the process for following up with our users. Whether it’s a question or bug, we’ll list it down step by step, process by process.
 
-## Follow-Up Categories
+## Process
 
-### Enterprise-level Accounts
-- Follow up every five business days, regardless of issue severity
-- Filter bugs by Enterprise account in Asana
-- Sort by "User last updated"
+The process guide will be broken down into several categories:
 
-![Enterprise Filter](../../../../../public/enterprise-filter.png)
+- **Enterprise level accounts**
+- **Standard level accounts**
+- **Community level accounts**
+- **Inactive users**
 
-### Standard-level Accounts (With High-Priority Tickets)
-- Follow up every five business days for accounts with at least one high-priority ticket
-- Filter bugs by Critical priority in Asana
-- Sort by "User last updated"
+## Bugs
 
-### Standard-level Accounts (Without High-Priority Tickets)
-- Follow up quarterly
-- Filter bugs by Medium priority in Asana
-- Sort by "User last updated"
+### Enterprise-level accounts:
 
-### Community-level Accounts (Active Users with 3+ Open Tickets)
-- Follow up every five business days
-- Filter by Community plan and identify accounts with three or more open tickets
-- Sort by "Last follow-up date"
+- For bugs reported by Enterprise users, **regardless** of the severity of the issue, we must follow up **every five business days** to give them an update.
+- In the Asana Bugs board, filter the bugs based on the Enterprise **account** and select **Choose Any.** From there, select all Enterprise accounts.
+- Sort the cards by “User last updated”
 
-### Inactive Users (Users with Only One Ticket)
-- Follow up monthly (except for canceled accounts)
-- Filter by Trial/Community plan
-- Sort by "Last follow-up date"
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dd97d313-f23f-4575-a55b-ce8d4c9c483d/Untitled.png)
 
-## Follow-Up Process
+- Look into the Bugs that are **assigned** to an Engineer
+- Go through the comments in the bug report. Follow the [Asana Bug Handling Process](https://www.notion.so/Asana-bug-handling-process-a2c55843366a4aa98617c36269501e2c?pvs=21) for guidance when following up with the assigned Engineer
+- Reach out to the Enterprise user if it’s been five **business days or more** that we haven’t given them an update about the bug/s
+- Refer to Guideline for a guide on the follow-up email to be sent to the user
 
-1. Review the bug's current status in Asana
-2. Check the last update date
-3. Prepare an appropriate follow-up message based on the current status
-4. Send the follow-up message to the user
-5. Update the "User last updated" field in Asana
+### Standard-level accounts (With at least one high-priority ticket):
 
-Remember to always use a professional and empathetic tone in your follow-up messages. If you're unsure about the status of an account or the appropriate follow-up action, consult with your team leader.
+- For bugs reported by **Standard** plan users who have **at least one high-priority ticket**, we must follow up **every five business days** to give them an update.
+- In the Asana Bugs board, filter the bugs based on **Priority** and select **Critical.**
+- Sort the cards by “User last updated”
+- Look into the Bugs that are **assigned** to an Engineer
+- Go through the comments in the bug report. Follow the [Asana Bug Handling Process](https://www.notion.so/Asana-bug-handling-process-a2c55843366a4aa98617c36269501e2c?pvs=21) for guidance when following up with the assigned Engineer
+- Pull up the user’s account in Intercom and take note of the user’s plan. They should be on a **Standard plan**. If they’re in a Community plan, refer to Community Level Accounts instructions below.
+- Reach out to the Standard plan user if it’s been five **business days or more** that we haven’t given them an update about the bug/s
+- Refer to Guideline for a guide on the follow-up email to be sent to the user.
+- Once done with **Critical** bugs, filter again the bug reports by **Priority** > **Urgent and High.**
 
-For more detailed information, refer to the [Manual Follow-Up](Manual%20Follow%20Up%20(Because%20we%20don%E2%80%99t%20forget%20about%20ou%20b8083cdb871e4c37b3a77e8a9aec5057.md) document.
+### Standard-level accounts (With NO high-priority ticket):
+
+- For bugs reported by **Standard** plan users who have **NO high-priority tickets**, we must follow up **quarterly** to give them an update.
+- In the Asana Bugs board, filter the bugs based on **Priority** and select **Medium**.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/58a07014-9ee3-47cb-9f1d-a541cf6fda64/Untitled.png)
+
+- Sort the cards by “User last updated”.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/750f8f09-8357-4ad7-aeb7-8a3e01ad68ae/Untitled.png)
+
+- Look into the Bugs that are assigned to an Engineer.
+- Go through the comments in the bug report. Follow the Asana Bug Handling Process for guidance when following up with the assigned Engineer.
+- Pull up the user’s account in Intercom and take note of the user’s plan. They should be on a Standard plan. If they’re in a Community plan, refer to Community Level Accounts instructions below.
+- Reach out to the Standard plan user if it’s been **three business months or more** that we haven’t given them an update about the bug/s.
+- Refer to the guideline for a guide on the follow-up email to be sent to the user.
+
+### Community-level accounts (Active users with more than three or more open tickets )
+
+- For bugs reported by **Community** plan users who have **at least three or more tickets, regardless of the priority**, we must follow up **every five business days** to give them an update.
+- *Filter the Plan and choose **Community.***
+- *Sort the results by User Account and determine which Community accounts have three or more open tickets.*
+- Sort the cards by “Last follow-up date”
+- Look into the Bugs that are **assigned** to an Engineer
+- Go through the comments in the bug report. Follow the [Asana Bug Handling Process](https://www.notion.so/Asana-bug-handling-process-a2c55843366a4aa98617c36269501e2c?pvs=21) for guidance when following up with the assigned Engineer
+- Reach out to the Community plan user if it’s been five **business days or more** that we haven’t given them an update about all the outstanding bugs that they reported (3 or more)
+- Refer to Guideline for a guide on the follow-up email to be sent to the user
+
+### Inactive users (Users with only one ticket)
+
+- For bugs reported by **Inactive** users, we must follow up **monthly** to give them an update. **(There is no need to send a follow-up to users who have canceled their accounts.)**
+- **It's important to seek advice from your team leader to check if the account is inactive.**
+- *Filter the Plan and choose **Trial/Community.***
+- Sort the cards by “Last follow-up date”
+- Look into the Bugs that are **assigned** to an Engineer
+- Go through the comments in the bug report. Follow the [Asana Bug Handling Process](https://www.notion.so/Asana-bug-handling-process-a2c55843366a4aa98617c36269501e2c?pvs=21) for guidance when following up with the assigned Engineer
+- Reach out to the Trial user if it’s been **30 days since the last update unless advised to stop sending follow-ups**
+- Refer to Guideline for a guide on the follow-up email to be sent to the user
+
+# Summary
+
+This document outlines a process for following up with customers, depending on their account level, to ensure they are not taken for granted. It includes instructions for filtering bug reports based on the account level, sorting by last follow-up date, and referring to a guideline for follow-up emails.
+
+The process begins by filtering the bug reports according to the customer's account level. This is a critical step, as customers with different account levels should be treated differently. This can be done manually by looking up the customer's account information in the database and sorting them accordingly.
+
+Once the bug reports have been filtered, it is important to sort them by the date of the last follow-up. This will allow us to identify which customers have yet to be followed up with in the recent past. This is essential, as we do not want any customer to be taken for granted.
+
+Finally, it is important to refer to the follow-up email guidelines to ensure the customer receives the appropriate response. This should include details such as addressing the customer's specific issue, offering helpful advice, and expressing gratitude for their patience. Furthermore, by utilizing the follow-up email guidelines, we can ensure that the customer has a positive experience. This is important, as customer satisfaction is key to long-term success.

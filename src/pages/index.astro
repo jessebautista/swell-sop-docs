@@ -9,15 +9,23 @@ if (Astro.request.method === 'POST') {
     const username = data.get('username')?.toString().trim();
     const password = data.get('password')?.toString().trim();
 
-    // Check credentials
+    console.log('Login attempt with:', { 
+      username, 
+      password,
+      usernameMatch: username === 'swelltech',
+      passwordMatch: password === 'swellawesome'
+    });
+
+    // Simple credential check
     if (username === 'swelltech' && password === 'swellawesome') {
-      return Astro.redirect('/docs');
+      console.log('Login successful, redirecting...');
+      return Astro.redirect('/docs/');
     } else {
+      console.log('Login failed: Invalid credentials');
       errorMessage = 'Invalid username or password';
-      console.log('Login attempt failed:', { username, password }); // For debugging
     }
   } catch (error) {
-    console.error('Login error:', error); // For debugging
+    console.error('Login error:', error);
     errorMessage = 'An error occurred during login';
   }
 }

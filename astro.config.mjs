@@ -8,6 +8,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			pagination: false,
+			tableOfContents: false,
 			favicon: './src/assets/Swell Wordmark Purple.svg',
 			logo: {
 				light: './src/assets/Swell Wordmark Purple.svg',
@@ -21,43 +22,43 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Back to Main Menu',
-					link: '/main/'
+					label: 'Home',
+					link: '/home/home/'
 				},
 				{
 					label: 'Onboarding',
 					autogenerate: { directory: 'onboarding' },
 				},
 				{
-					label: 'Daily Tasks',
-					items: [
-						{ label: 'Normal Operation', link: '/daily-tasks/overview/' },
-						{ label: 'Special Projects', link: '/daily-tasks/special-projects/' },
-					],
-				},
-				{
-					label: 'Standard Operating Procedure',
+					label: 'Operating Procedure',
 					items: [
 						{
-							label: 'Bug Ticket Management',
+							label: 'Bug ticket management',
 							link: '/sop/bug-ticket-management/overview/',
 						},
 						{
-							label: 'User Question Management',
+							label: 'User question management',
 							link: '/sop/user-question-management/overview/',
 						},
 						{
-							label: 'Outage Management',
+							label: 'Outage management',
 							link: '/sop/outage-management/overview/',
 						},
 						{
-							label: 'User Request Management',
+							label: 'User request management',
 							link: '/sop/user-request-management/overview/',
 						},
 						{
-							label: 'Statuspage.io SOP',
+							label: 'Statuspage.io operating procedure',
 							link: '/sop/statuspage-io/overview/',
 						},
+					],
+				},
+				{
+					label: 'Daily tasks',
+					items: [
+						{ label: 'Normal operation', link: '/daily-tasks/overview/' },
+						{ label: 'Side tasks', link: '/daily-tasks/special-projects/' },
 					],
 				},
 			],

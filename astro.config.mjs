@@ -34,23 +34,48 @@ export default defineConfig({
 					items: [
 						{
 							label: 'Bug ticket management',
-							link: '/sop/bug-ticket-management/overview/',
-						},
+							collapsed: true,
+							items: [
+							  'sop/bug-ticket-management/overview',
+							  'sop/bug-ticket-management/overview',
+							  'sop/bug-ticket-management/overview',
+							],
+						  },
 						{
 							label: 'User question management',
-							link: '/sop/user-question-management/overview/',
+							collapsed: true,
+							items: [
+								'sop/bug-ticket-management/overview',
+								'sop/bug-ticket-management/overview',
+								'sop/bug-ticket-management/overview',
+							  ],
 						},
 						{
 							label: 'Outage management',
-							link: '/sop/outage-management/overview/',
+							collapsed: true,
+							items: [
+								'sop/bug-ticket-management/overview',
+								'sop/bug-ticket-management/overview',
+								'sop/bug-ticket-management/overview',
+							  ],
 						},
 						{
 							label: 'User request management',
-							link: '/sop/user-request-management/overview/',
+							collapsed: true,
+							items: [
+								'sop/bug-ticket-management/overview',
+								'sop/bug-ticket-management/overview',
+								'sop/bug-ticket-management/overview',
+							  ],
 						},
 						{
 							label: 'Statuspage.io operating procedure',
-							link: '/sop/statuspage-io/overview/',
+							collapsed: true,
+							items: [
+								'sop/bug-ticket-management/overview',
+								'sop/bug-ticket-management/overview',
+								'sop/bug-ticket-management/overview',
+							  ],
 						},
 					],
 				},

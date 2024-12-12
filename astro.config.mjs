@@ -37,44 +37,42 @@ export default defineConfig({
 							collapsed: true,
 							items: [
 							  'sop/bug-ticket-management/overview',
-							  'sop/bug-ticket-management/overview',
-							  'sop/bug-ticket-management/overview',
+							  'sop/bug-ticket-management/handling-process',
+							  'sop/bug-ticket-management/manual-follow-up',
+							  'sop/bug-ticket-management/project-fields'
 							],
 						  },
 						{
 							label: 'User question management',
 							collapsed: true,
 							items: [
-								'sop/bug-ticket-management/overview',
-								'sop/bug-ticket-management/overview',
-								'sop/bug-ticket-management/overview',
+								'sop/user-question-management/overview',
+								'sop/user-question-management/handling-process',
+								'sop/user-question-management/asana-project-management',
 							  ],
 						},
 						{
 							label: 'Outage management',
 							collapsed: true,
 							items: [
-								'sop/bug-ticket-management/overview',
-								'sop/bug-ticket-management/overview',
-								'sop/bug-ticket-management/overview',
+								'sop/outage-management/overview',
 							  ],
 						},
 						{
 							label: 'User request management',
 							collapsed: true,
 							items: [
-								'sop/bug-ticket-management/overview',
-								'sop/bug-ticket-management/overview',
-								'sop/bug-ticket-management/overview',
+								'sop/user-request-management/overview',
+								'sop/user-request-management/handling-process',
+								'sop/user-request-management/submission-process',
+								'sop/user-request-management/asana-project-management',
 							  ],
 						},
 						{
 							label: 'Statuspage.io operating procedure',
 							collapsed: true,
 							items: [
-								'sop/bug-ticket-management/overview',
-								'sop/bug-ticket-management/overview',
-								'sop/bug-ticket-management/overview',
+								'sop/statuspage-io/overview',
 							  ],
 						},
 					],
